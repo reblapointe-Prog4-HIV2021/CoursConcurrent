@@ -76,7 +76,6 @@ public class ExoThread
         sw.Stop();
 
         Console.WriteLine($"Test exécuté avec {NB_THREADS} threads. Valeur : {c.Valeur}. Temps écoulé : {sw.ElapsedMilliseconds}");
-
         return c.Valeur;
     }
 
